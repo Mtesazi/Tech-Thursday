@@ -23,7 +23,7 @@
             "name": "the user is on the tour of heroes applicatione",
             "result": {
               "status": "passed",
-              "duration": 330000000
+              "duration": 362000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the user shall see the toh dashboard",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 45000000
             }
           }
         ]
