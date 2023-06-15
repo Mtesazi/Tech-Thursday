@@ -1,0 +1,163 @@
+[
+  {
+    "description": "    This Feature tests heroes scenarios",
+    "keyword": "Feature",
+    "name": "Heroes Functionality",
+    "line": 1,
+    "id": "heroes-functionality",
+    "tags": [],
+    "uri": "HeroesPage.feature",
+    "elements": [
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-should-able-navigate-to-the-'heroes'-page-from-the-landing-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I should able navigate to the 'Heroes' page from the landing page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the tour of heroes application",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user is on the dashboard.",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks the Heroes link",
+            "result": {
+              "status": "passed",
+              "duration": 3086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should be navigated to the heroes landing page.",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-should-see-a-list-of-all-available-heroes.",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a toh user, I should see a list of all available heroes.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the tour of heroes application",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the user is on the 'Heroes' page",
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user should see a list of all heroes.",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroes-functionality;as-a-toh-user,-i-should-be-able-to-add-a-new-'hero'-from-the-landing-page",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "As a toh user, I should be able to add a new 'hero' from the landing page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the tour of heroes application",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user is on the 'Heroes' page",
+            "result": {
+              "status": "passed",
+              "duration": 582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "enters a hero name 'TestHero'",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks 'Add Hero' button",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "a new hero with name 'TestHero' should be added to the existing list.",
+            "result": {
+              "status": "passed",
+              "duration": 3030000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

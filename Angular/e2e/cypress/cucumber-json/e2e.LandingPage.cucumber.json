@@ -20,20 +20,20 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "the user is on the landing page",
+            "name": "the user is on the tour of heroes applicatione",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 330000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "the user shall see the employee dashboard",
+            "name": "the user shall see the toh dashboard",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 40000000
             }
           }
         ]
